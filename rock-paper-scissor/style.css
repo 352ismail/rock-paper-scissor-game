@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.items{
+    border:none;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+.items:hover{
+ cursor: pointer;
+}
+.score{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.info{
+    margin-bottom: .5rem;
+    color: green;
+}
+.winners{
+    margin-bottom: 2vh;
+    font-size: 30px;
+}
+.selection-computer{
+    margin-bottom: 1vh;
+}
+.btn-new{
+   background-color: rgb(95, 131, 250);
+    color: white;
+    font-size: larger;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .6rem;
+    padding: .8vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-new:hover{
+    background-color: rgb(87, 119, 228);
+    cursor: pointer;
+}
+
+.computer-contaner{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 20%;
+    height: 10vh;
+}
+
+.footer{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color:  #7e8faa;
+    margin-bottom: 1rem;
+}
+.link{
+    color: #546278;
+    text-decoration: none;
+}
